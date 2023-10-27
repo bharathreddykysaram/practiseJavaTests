@@ -11,6 +11,8 @@ public class TestFinalMethod3 extends TestFinalMethod1{
         TestFinalMethod1 ts=new TestFinalMethod1(); //
         ts.method2();
         ts.method1();
+        ts.method1();
+
 
         TestFinalMethod t1=new TestFinalMethod();//so here it is parent it will print only parent method only
         t1.method1();
